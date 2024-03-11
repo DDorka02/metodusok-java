@@ -56,12 +56,12 @@ public class tablazat {
 
     private static void fajlbaTablazatba() {
         char [] betuk = {'a','b','c','d'};
-        fajlbaIras(tablazatba("\n"+betuk));
+//        fajlbaIras(tablazatba("\n"+betuk));
     }
 
     private static void fajlbaIras() {
         Path hov=Paths.get("falj.txt");
-        Files.write(hov, uzenet.getBytes());
+//        Files.write(hov, uzenet.getBytes());
     }
 
     }
